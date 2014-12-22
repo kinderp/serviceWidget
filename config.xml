@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Template xmlns="http://wirecloud.conwet.fi.upm.es/ns/template#">
+	<Catalog.ResourceDescription>
+		<Vendor>arkimede</Vendor>
+		<Name>Esempio</Name>
+		<DisplayName>Esempio</DisplayName>
+		<Author>ciccio cappuccio</Author>
+		<Version>0.0.11</Version>
+		<Mail>ciccio@cappuccio</Mail>
+		<Description>esempio</Description>
+		<ImageURI>images/catalogue.png</ImageURI>
+		<iPhoneImageURI>images/catalogue.png</iPhoneImageURI>
+		<WikiURI></WikiURI>
+		<Requirements>
+			<Feature name="NGSI"/>
+		</Requirements>
+	</Catalog.ResourceDescription>
+	<Platform.Preferences>
+		<Preference name="ngsi_server" type="text" description="server che contiene la lista dei servizi" label="NGSI Server" default="http://orion.lab.fi-ware.org:1026/"></Preference>
+		<Preference name="ngsi_proxy" type="text" description="server proxy" label="NGSI proxy" default="https://ngsiproxy.lab.fi-ware.org"></Preference>
+	</Platform.Preferences>
+	<Platform.Wiring>
+		<OutputEndpoint name="outputService" type="text" description="ritorna il servizio selezionato nella tabella" label="Selected Service" friendcode="service"></OutputEndpoint>
+	</Platform.Wiring>
+	<Platform.Link>
+	<XHTML href="index.html" contenttype="text/html"/>
+	</Platform.Link>
+	<Platform.Rendering width="10" height="20"/>
+</Template>

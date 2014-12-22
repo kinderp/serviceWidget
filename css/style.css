@@ -1,0 +1,40 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#idContenitore{
+	font-family: Courier New;
+	font-size: 13px;
+	font-weight: bold;
+	background: black;
+    color: #00FF00;
+    margin: 10px;
+    height: auto;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#tabellaContenitore {
+	font-family: Verdana;
+    font-size: 13px;
+    color: #464646;
+    margin: 10px;
+
+    table-layout: fixed;
+  	width: 650px;
+  	text-align: center;
+}
+
+#servicesTable{
+	table-layout: fixed;
+  	width: 650px;
+  	text-align: center;
+  	#border: 1px solid #98bf21;
+  	#border-radius: 10px 10px 10px 10px;
+}
+
+
+#servicesTable tr:hover {
+          background-color: #ffff99;
+          font-weight: bold;
+}
