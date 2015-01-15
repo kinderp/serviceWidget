@@ -1,6 +1,10 @@
 /*jshint browser:true*/
 /*global MashupPlatform*/
 
+/*
+ * prova commit github
+ */
+
 (function() {
 
 	"use strict";
