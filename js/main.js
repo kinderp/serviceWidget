@@ -9,6 +9,10 @@
 	var tableHeaders = ['id','typeOfService', 'description'];
 	var tot_mess = 0;
 	
+	/*
+	 * Prova commit GitHub
+	 */
+	
 	var Esempio = function Esempio() {
 		this.my_body = null;
 		this.contenitore = null; /* stdout */
