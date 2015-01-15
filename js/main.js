@@ -2,7 +2,7 @@
 /*global MashupPlatform*/
 
 /*
- * prova commit github
+ * riprova commit github
  */
 
 (function() {
