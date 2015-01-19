@@ -2,7 +2,7 @@
 /*global MashupPlatform*/
 
 /*
- * prova commit github
+ * riprova commit github
  */
 
 (function() {
@@ -12,6 +12,8 @@
 	var condValues = ['typeOfService', 'description'];
 	var tableHeaders = ['id','typeOfService', 'description'];
 	var tot_mess = 0;
+	
+	
 	
 	var Esempio = function Esempio() {
 		this.my_body = null;
